@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enter A Quote</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style>
+      body {
+  background-image: url(pics/home.jpg) ;
+  color: white;
+  background-size: cover;
+      }
+
+h1  {
+text-align: center;
+}
+.subtitle {
+text-align: center;
+}
+.center {
+  text-align: center;
+}
+label, input, textarea{
+  display: block;
+}
+form {
+  width: 230px;
+  height: 570px ;
+transform: translate(-45%, 4%);
+font-size: 20px;
+}
+.message {
+  width:400px;
+  height:200px;
+}
+.mood, .email {
+  width: 400px;
+  height: 30px;
+}
+.submit {
+  height: 80px;
+  width: 400px;
+  color: white;
+  background-color: gray;
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.submit:hover {
+  background-color: lightskyblue;
+}
+
+</style>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" style= "background-color: transparent;">
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" a href="home.html" style="color: gray;">
+            Home
+          </a>
+
+          <a class="navbar-item" a href="enter.html" style="color: gray;">
+            Enter A Quote
+          </a>
+            <a class="navbar-item" a href="info.html" style="color: gray;">
+              More Info
+            </a>
+          </div>
+        </div>
+
+
+
+    </nav>
+
+    <h1 class="title" style="color: white; font-size: 40px;">
+      Have a quote that could help? Leave it here!
+    </h1>
+<center><form action="https://formspree.io/jalenstaples@gmail.com" method="POST">
+  <label>
+    Email
+    <input type="email" name="email" class="email"
+  </label>
+  <label>
+    Mood (1 of 4)
+    <input type="text" name="mood" class="mood"/>
+  </label>
+  <label>
+    Quote
+    <textarea name="message" class="message"></textarea>
+  </label>
+  <div class="status">
+
+  </div>
+  <button type="submit" class="submit">
+    Submit
+  </button>
+</div>
+</center>
+  </body>
+</html>
