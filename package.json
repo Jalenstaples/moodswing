@@ -1,0 +1,24 @@
+{
+  "name": "moodswing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "happy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalenstaples/moodswing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jalenstaples/moodswing/issues"
+  },
+  "homepage": "https://github.com/Jalenstaples/moodswing#readme",
+  "dependencies": {
+    "surge": "^0.21.3"
+  },
+  "devDependencies": {}
+}
