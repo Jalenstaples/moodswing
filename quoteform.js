@@ -1,7 +1,7 @@
-console.log('hey there');
+
 $(document).ready(function (){
   $('.submit').click(function (event) {
-console.log('Clicked Button');
+
 
 var email = $('.email').val()
 var mood = $('.mood').val()

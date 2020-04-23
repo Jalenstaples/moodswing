@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Enter A Quote</title>
+    <title>Add your own</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <style>
@@ -25,9 +25,9 @@ label, input, textarea{
   display: block;
 }
 form {
-  width: 230px;
+  width: 200px;
   height: 570px ;
-transform: translate(-45%, 4%);
+transform: translate(-95%, 4%);
 font-size: 20px;
 }
 .message {
@@ -39,7 +39,7 @@ font-size: 20px;
   height: 30px;
 }
 .submit {
-  height: 80px;
+  height: 50px;
   width: 400px;
   color: white;
   background-color: gray;
@@ -50,6 +50,7 @@ font-size: 20px;
 .submit:hover {
   background-color: lightskyblue;
 }
+
 
 </style>
   </head>
@@ -63,10 +64,10 @@ font-size: 20px;
           </a>
 
           <a class="navbar-item" a href="enter.html" style="color: gray;">
-            Enter A Quote
+            Add your own
           </a>
             <a class="navbar-item" a href="info.html" style="color: gray;">
-              More Info
+              About me
             </a>
           </div>
         </div>
@@ -79,14 +80,16 @@ font-size: 20px;
       Have a quote that could help? Leave it here!
     </h1>
 <center><form action="https://formspree.io/jalenstaples@gmail.com" method="POST">
-  <label>
+  <label style="width: 10px;">
     Email
     <input type="email" name="email" class="email"
   </label>
-  <label>
-    Mood (1 of 4)
+
+  <label style="font-size: 13px; width: 200px;">
+    Happy, Sad, Upset, or Anxious?
     <input type="text" name="mood" class="mood"/>
   </label>
+
   <label>
     Quote
     <textarea name="message" class="message"></textarea>
